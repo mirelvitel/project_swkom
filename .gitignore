@@ -35,8 +35,6 @@ build/
 
 ### React app specific ###
 /frontend/node_modules/        # Ignore node_modules inside frontend (React app)
-frontend/build/                # Ignore build directory (React app production build)
-frontend/.env                  # Ignore environment variables for frontend
 
 # General Ignore
 .DS_Store                       # macOS specific
