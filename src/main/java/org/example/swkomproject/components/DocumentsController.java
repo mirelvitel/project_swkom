@@ -1,4 +1,4 @@
-package components;
+package org.example.swkomproject.components;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
