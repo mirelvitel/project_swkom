@@ -3,12 +3,14 @@ services:
     container_name: react-frontend-dev
     build:
       context: .
-      dockerfile: dev.Dockerfile
+      dockerfile: dev.frontend.Dockerfile
     volumes:
       - .:/app
     ports:
       - "3000:3000"
     command: ["npm", "start"]
+    environment:
+      - REACT_APP_API_URL=http://backend:8080/api
 
   backend:
     container_name: spring-backend-dev

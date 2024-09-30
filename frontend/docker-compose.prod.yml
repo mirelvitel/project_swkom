@@ -3,7 +3,7 @@ services:
     container_name: react-frontend-dev
     build:
       context: .
-      dockerfile: prod.Dockerfile
+      dockerfile: prod.frontend.Dockerfile
     ports:
       - "80:80"
     volumes:
